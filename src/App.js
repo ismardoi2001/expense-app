@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
-import Child from './Child.js'
+import {Balance} from './Balance';
+import {TransactionHistory} from'./TransactionHistory';
+import {AccountSummary} from'./AccountSummary';
+import {AddTransaction} from './AddTransaction';
 
 function App() {
   return (
     <div>
-     <Child/>
+     <Balance/>
+     <TransactionHistory/>
+     <AccountSummary/>
+     <AddTransaction/>
+
     </div>
   );
 }

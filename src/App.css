@@ -1,10 +1,17 @@
 .contaner{
-  max-width: 400px;
-  min-height: 450px;
-  margin: 0 auto;
-  background-color: #efefef;
-  box-shadow: 0 0 10px gray;
-  margin-top: 50px;
+  margin: 30px auto;
+  width: 350px;
+
+}
+.body{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Lato',sans-serif;
 }
 
 .text-center {
