@@ -14,7 +14,7 @@
 .expense-container {
   display: flex;
   justify-content: space-around;
-  background-color: white;
+  background-color: rgb(68, 212, 80);
 }
 
 .transaction-list {

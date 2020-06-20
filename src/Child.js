@@ -1,6 +1,9 @@
 import React from 'react';
 
 function Child() {
+
+
+    
 return (
     <div className ="contaner">
     <h1 className="text-center">Expense Tracker</h1>
