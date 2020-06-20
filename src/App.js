@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
 import {Balance} from './Balance';
-import {TransactionHistory} from'./TransactionHistory';
 import {AccountSummary} from'./AccountSummary';
 import {AddTransaction} from './AddTransaction';
 
 function App() {
   return (
-    <div>
+
+    <div className="body">
      <Balance/>
-     <TransactionHistory/>
      <AccountSummary/>
      <AddTransaction/>
 
