@@ -6,7 +6,7 @@ function Child() {
     
 return (
     <div className ="contaner">
-    <h1 className="text-center">Expense Tracker</h1>
+    <h1 className="text-center">Expense Tracker By Muhammad Ismail </h1>
     <h3>Your Balance<br/>$260</h3>
     <div className ="expense-container">
     <h3>INCOME<br/>$500</h3>
