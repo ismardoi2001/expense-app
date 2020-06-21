@@ -1,15 +1,14 @@
-import React ,{useContext} from 'react'
-import {GlobalContext} from './GlobalState';
-import { TransactionProvider } from './transContext'
+import React, {useContext} from 'react';
+import { GlobalContext } from './GlobalState';
 
-export const Transation = ({ Transation}) => {
-    const {deleteTransaction} = useContext(GlobalContext);
-const sign = transaction.amount < 0 ?'-': '+';
-    return (
-        <li className={transaction.amount < 0 ? 'minus' : 'plus'}>
-        {Transaction.description}
-       {transaction.text} <span>{sign}${Math.abs{transaction.amount}</span><button 
-         onClick={()=> deleteTransactions(transaction.id)}className="detele-btn">X</button>
-        </li>
-    )
+export const Transaction = ({ transaction }) => {
+  const { deleteTransaction } = useContext(GlobalContext);
+
+  const sign = transaction.amount < 0 ? '-' : '+';
+
+  return (
+    <li className={transaction.amount < 0 ? 'minus' : 'plus'}>
+      {transaction.text} <span>{sign}${Math.abs(transaction.amount)}</span><button onClick={() => deleteTransaction(transaction.id)} className="delete-btn">x</button>
+    </li>
+  )
 }
